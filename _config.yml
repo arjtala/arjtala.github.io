@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: _cactuscowboy
+email: talattof@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  software engineer exploring the world of rust. formerly a scientist. aspiring farmer.
 domain: arjtala.github.io
 url: https://arjtala.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -32,11 +30,22 @@ github_username:  arjtala
 github: [metadata]
 
 # Build settings
-# theme: minima
-remote_theme: pages-themes/midnight@v0.2.0
+theme: minima
+# remote_theme: pages-themes/hacker@v0.2.0
+# remote_theme: jeffreytse/jekyll-theme-yat
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-spaceship
+  - jemoji
+
+night_mode: "auto"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

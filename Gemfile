@@ -16,7 +16,6 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-remote-theme"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -37,4 +36,4 @@ source "https://rubygems.org"
 gem "github-pages", "~> 227", group: :jekyll_plugins
 gem "webrick", "~> 1.7"
 gem "faraday-retry", "~> 2.0"
-
+gem "jekyll-remote-theme", "~> 0.4.3", group: :jekyll_plugins

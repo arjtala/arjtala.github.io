@@ -1,0 +1,321 @@
+<svg width="750" height="280" viewBox="0 0 750 280" xmlns="http://www.w3.org/2000/svg" class="">
+<style>
+    svg {
+        font-family: -apple-system, "Helvetica Neue", sans-serif;
+        font-size: 10px;
+        text-rendering: optimizeLegibility;
+        background-color: white;
+    }
+
+    text {
+        text-anchor: middle;
+        dominant-baseline: middle;
+    }
+
+    .text-container > div {
+        cursor: default;
+        box-sizing: border-box;
+        background-color: #f0f0f0;
+        text-align: center;
+        width: 65px;
+        height: 55px;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+                overflow: hidden;
+    }
+
+    .glyph {
+        padding: 1px 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+                flex: 1 0 auto;
+    }
+
+    .text-container > div:after {
+        box-sizing: border-box;
+        font-size: 11px;
+        font-weight: bold;
+        font-variant: small-caps;
+                position: fixed;
+                bottom: 0;
+                padding-bottom: 1px;
+                width: 100%;
+                display: none;
+    }
+
+    .text-container > div.held > .glyph {
+        background-color: #bbf;
+    }
+
+    .rgb .text-container > div.held > .glyph {
+        background-color: initial;
+        border: 3px solid #00e;
+        border-bottom-width: 0;
+        border-radius: 6px 6px 0 0;
+    }
+
+    .text-container > div.blank {
+
+    }
+
+    .text-container > div.transparent {
+
+    }
+
+    .layer_title {
+                font-size: 14px;
+                font-weight: bold;
+                fill: #777;
+    }
+
+    .layer_bg {
+        fill: #c0c0c0;
+        width: 730px;
+        height: 260px;
+    }
+
+    .kc_up, .kc_down, .kc_left, .kc_right,
+    .kc_ent, .kc_bspc, .os_caps, .kc_esc,
+    .kc_lsft, .nav_spc,
+    .kc_exlm, .kc_at, .kc_hash, .kc_dlr, .kc_perc,
+    .kc_ampr, .kc_astr, .kc_unds, .kc_mins,
+    .kc_pipe, .kc_scln, .kc_eql, .kc_coln, .kc_tild,
+    .kc_lt, .kc_gt, .kc_grv, .kc_circ, .kc_plus, .kc_bsls,
+    .kc_quot, .kc_dot, .kc_comm, .kc_slsh,
+    .os_shft, .os_ctrl, .os_alt, .os_cmd,
+    .kc_mac_spotlight, .kc_pgup, .kc_pgdn,
+    .kc_mac_undo, .kc_mac_redo, .kc_tab,
+    .kc_mac_cut, .kc_spc, .kc_mac_lock_scrn,
+    .kc_brightness_up, .kc_brightness_down,
+    .kc_volu, .kc_vold, .kc_mute,
+    .kc_mply, .kc_mprv, .kc_mnxt {
+        font-size: 15px;
+    }
+
+    .kc_bspc {
+        font-size: 18px;
+    }
+
+    .os_caps {
+        font-size: 16px;
+        padding-top: 4px !important;
+    }
+
+    .kc_mac_spotlight {
+        font-size: 37px;
+    }
+
+    .kc_mac_undo {
+        font-size: 31px;
+    }
+
+    .kc_mac_redo {
+        font-size: 31px;
+    }
+
+    .kc_mac_cut {
+        font-size: 17px;
+    }
+
+    .kc_spc {
+        font-size: 21px;
+    }
+
+    .kc_mac_lock_scrn {
+        font-size: 18px;
+    }
+
+    .kc_brightness_up {
+        font-size: 25px;
+    }
+
+    .kc_brightness_down {
+        font-size: 29px;
+    }
+
+    .kc_audio_vol_down {
+        font-size: 19px;
+    }
+
+    .kc_audio_vol_up {
+        font-size: 19px;
+    }
+
+    .kc_audio_mute {
+        font-size: 19px;
+    }
+
+    .kc_media_play_pause {
+        font-size: 23px;
+    }
+
+    .kc_media_prev_track {
+        font-size: 23px;
+    }
+
+    .kc_media_next_track {
+        font-size: 23px;
+    }
+
+    .annotation {
+        box-sizing: border-box;
+        font-size: 8px;
+        font-weight: bold;
+        font-variant: small-caps;
+                padding-bottom: 2px;
+                width: 100%;
+        color: #f6f6f6;
+                background-color: #666;
+    }
+
+    .held .annotation.layer {
+        background-color: #00e;
+    }
+
+</style>
+
+<rect rx="6" x="10" y="10" class="layer_bg" />
+
+<foreignObject x="14" y="14" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title="1" class="1"><div class="glyph">1</div></div>
+</foreignObject>
+
+<foreignObject x="83" y="14" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" 2" class=" 2"><div class="glyph"> 2</div></div>
+</foreignObject>
+
+<foreignObject x="152" y="14" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" 3" class=" 3"><div class="glyph"> 3</div></div>
+</foreignObject>
+
+<foreignObject x="221" y="14" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" 4" class=" 4"><div class="glyph"> 4</div></div>
+</foreignObject>
+
+<foreignObject x="290" y="14" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" 5" class=" 5"><div class="glyph"> 5</div></div>
+</foreignObject>
+
+<foreignObject x="395" y="14" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" 6" class=" 6"><div class="glyph"> 6</div></div>
+</foreignObject>
+
+<foreignObject x="464" y="14" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" 7" class=" 7"><div class="glyph"> 7</div></div>
+</foreignObject>
+
+<foreignObject x="533" y="14" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" 8" class=" 8"><div class="glyph"> 8</div></div>
+</foreignObject>
+
+<foreignObject x="602" y="14" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" 9" class=" 9"><div class="glyph"> 9</div></div>
+</foreignObject>
+
+<foreignObject x="671" y="14" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" 0" class=" 0"><div class="glyph"> 0</div></div>
+</foreignObject>
+
+<foreignObject x="14" y="73" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" LT" class=" lt"><div class="glyph"> LT</div></div>
+</foreignObject>
+
+<foreignObject x="83" y="73" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" PERC" class=" perc"><div class="glyph"> PERC</div></div>
+</foreignObject>
+
+<foreignObject x="152" y="73" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" LPRN" class=" lprn"><div class="glyph"> LPRN</div></div>
+</foreignObject>
+
+<foreignObject x="221" y="73" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" LCBR" class=" lcbr"><div class="glyph"> LCBR</div></div>
+</foreignObject>
+
+<foreignObject x="290" y="73" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" LBRC" class=" lbrc"><div class="glyph"> LBRC</div></div>
+</foreignObject>
+
+<foreignObject x="395" y="73" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" EQL" class=" eql"><div class="glyph"> EQL</div></div>
+</foreignObject>
+
+<foreignObject x="464" y="73" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" ASTR" class=" astr"><div class="glyph"> ASTR</div></div>
+</foreignObject>
+
+<foreignObject x="533" y="73" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" QUOT" class=" quot"><div class="glyph"> QUOT</div></div>
+</foreignObject>
+
+<foreignObject x="602" y="73" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" CIRC" class=" circ"><div class="glyph"> CIRC</div></div>
+</foreignObject>
+
+<foreignObject x="671" y="73" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" BSLS" class=" bsls"><div class="glyph"> BSLS</div></div>
+</foreignObject>
+
+<foreignObject x="14" y="132" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" GT" class=" gt"><div class="glyph"> GT</div></div>
+</foreignObject>
+
+<foreignObject x="83" y="132" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" DLR" class=" dlr"><div class="glyph"> DLR</div></div>
+</foreignObject>
+
+<foreignObject x="152" y="132" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" RPRN" class=" rprn"><div class="glyph"> RPRN</div></div>
+</foreignObject>
+
+<foreignObject x="221" y="132" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" RCBR" class=" rcbr"><div class="glyph"> RCBR</div></div>
+</foreignObject>
+
+<foreignObject x="290" y="132" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" RBRC" class=" rbrc"><div class="glyph"> RBRC</div></div>
+</foreignObject>
+
+<foreignObject x="395" y="132" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" AT" class=" at"><div class="glyph"> AT</div></div>
+</foreignObject>
+
+<foreignObject x="464" y="132" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" EXLM" class=" exlm"><div class="glyph"> EXLM</div></div>
+</foreignObject>
+
+<foreignObject x="533" y="132" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" GRV" class=" grv"><div class="glyph"> GRV</div></div>
+</foreignObject>
+
+<foreignObject x="602" y="132" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" MINS" class=" mins"><div class="glyph"> MINS</div></div>
+</foreignObject>
+
+<foreignObject x="671" y="132" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" SLSH" class=" slsh"><div class="glyph"> SLSH</div></div>
+</foreignObject>
+
+<foreignObject x="152.0" y="211" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" TRNS" class=" trns"><div class="glyph"> TRNS</div></div>
+</foreignObject>
+
+<foreignObject x="221.0" y="211" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" TRNS" class=" trns"><div class="glyph"> TRNS</div></div>
+</foreignObject>
+
+<foreignObject x="290.0" y="211" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" ESC" class=" esc"><div class="glyph"> ESC</div></div>
+</foreignObject>
+
+<foreignObject x="395.0" y="211" width="65" height="55" class="text-container">
+        <div xmlns="http://www.w3.org/1999/xhtml" lang="en" title=" RSFT" class=" rsft"><div class="glyph"> RSFT</div></div>
+</foreignObject>
+
+</svg>
