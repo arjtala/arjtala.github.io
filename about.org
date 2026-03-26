@@ -1,0 +1,9 @@
+#+TITLE: About
+#+OPTIONS: toc:nil num:nil
+
+software engineer exploring the world of rust. formerly a scientist. aspiring farmer.
+
+* Contact
+
+- [[https://github.com/arjtala][GitHub]]
+- [[mailto:talattof@gmail.com][Email]]

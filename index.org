@@ -1,0 +1,14 @@
+#+TITLE: _cactuscowboy
+#+OPTIONS: toc:nil num:nil
+
+software engineer exploring the world of rust. formerly a scientist. aspiring farmer.
+
+* Posts
+
+- [[file:posts/ferris-compact.org][Life with 34 keys]] --- /2022-09-17/
+- [[file:posts/emacs-native-comp.org][Emacs with natively-compiled EmacsLisp]] --- /2022-09-01/
+
+* Links
+
+- [[https://github.com/arjtala][GitHub]]
+- [[https://twitter.com/_cactuscowboy][Twitter]]
