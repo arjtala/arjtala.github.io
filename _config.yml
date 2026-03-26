@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: _cactuscowboy
+title: MKAT Industries LLC
 email: talattof@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  software engineer exploring the world of rust. formerly a scientist. aspiring farmer.
+  Data curation and ML consulting services.
 domain: arjtala.github.io
 url: https://arjtala.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -40,9 +40,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-paginate-v2
   - jekyll-sitemap
-  - jekyll-spaceship
   - jemoji
 
 night_mode: "auto"

@@ -4,9 +4,9 @@ layout: post
 
 # Life with 34 keys
 
-<img src="{{ site.baseurl }}/images/ferris_compact_00.jpg"
+<img src="{{ site.baseurl }}/personal/images/ferris_compact_00.jpg"
      alt="ferris compact"
-     style="margin-left: auto; margin-right: auto; display: block; width: 50%" /><img src="{{ site.baseurl }}/images/ferris_compact_01.jpg"
+     style="margin-left: auto; margin-right: auto; display: block; width: 50%" /><img src="{{ site.baseurl }}/personal/images/ferris_compact_01.jpg"
      alt="ferris compact"
      style="margin-left: auto; margin-right: auto; display: block; width: 50%" />
 
@@ -22,7 +22,7 @@ You can use the layout editor at [config.qmk.fm][layout_url] to implement variou
 * `LT(N,X)`: this lets me switch to layer `N` when held, otherwise the input is `X`. I've mapped the layer `1` and `TAB` on the left thumb key; and layer `2` and `RETURN` on the right thumb key
 * I do think there is plenty of room for optimization, and I'm still techinically faster on a standard keyboard (loving my [Happy Hacking Keyboard][hhk]) but the fact that my hands almost never have to move is a huge benefit.
 
-<img src="{{ site.baseurl }}/images/keymap_diagram.svg"
+<img src="{{ site.baseurl }}/personal/images/keymap_diagram.svg"
      alt="ferris compact"
      style="margin-left: auto; margin-right: auto; display: block; width: 75%" />
 
